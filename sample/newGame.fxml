@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewGame">
+   <children>
+      <ImageView fx:id="myIsland4" fitHeight="134.0" fitWidth="288.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Islands1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myIsland5" fitHeight="105.0" fitWidth="254.0" layoutX="342.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myTree1" fitHeight="129.0" fitWidth="57.0" layoutX="14.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myGreenOrc1" fitHeight="56.0" fitWidth="57.0" layoutX="361.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myRedOrc1" fitHeight="85.0" fitWidth="111.0" layoutX="436.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RedOrc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myTree2" fitHeight="134.0" fitWidth="65.0" layoutX="517.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myUser" fitHeight="150.0" fitWidth="151.0" layoutX="55.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@userwh.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myChest1" fitHeight="64.0" fitWidth="93.0" layoutX="193.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ChestOpen.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mySettings1" fitHeight="43.0" fitWidth="57.0" layoutX="529.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@settings.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="537.0" layoutY="45.0" mnemonicParsing="false" onAction="#switchtosettings" text="Click" />
+      <ImageView fx:id="myCloud" fitHeight="115.0" fitWidth="173.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@thecloud.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="60.0" layoutX="557.0" layoutY="-61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@settings.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
