@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="pane" maxHeight="600.0" maxWidth="5451.0" minHeight="600.0" prefHeight="600.0" prefWidth="5579.0" style="-fx-background-color: white;" stylesheets="@newGamecss.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewGame">
+   <children>
+      <ImageView fx:id="cloud" fitHeight="125.0" fitWidth="215.0" layoutX="40.0" layoutY="60.0">
+         <image>
+            <Image url="@assets/mycloud2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island1" fitHeight="95.0" fitWidth="143.0" layoutX="47.0" layoutY="459.0">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island2" fitHeight="125.0" fitWidth="246.0" layoutX="215.0" layoutY="458.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island4" fitHeight="114.0" fitWidth="190.0" layoutX="997.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands1.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <ImageView fx:id="island3" fitHeight="133.0" fitWidth="306.0" layoutX="552.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island8" fitHeight="92.0" fitWidth="143.0" layoutX="2346.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island5" fitHeight="105.0" fitWidth="215.0" layoutX="1401.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island6" fitHeight="105.0" fitWidth="190.0" layoutX="1677.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island7" fitHeight="113.0" fitWidth="215.0" layoutX="1995.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island9" fitHeight="125.0" fitWidth="200.0" layoutX="2598.0" layoutY="444.0">
+         <image>
+            <Image url="@assets/Islands3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island11" fitHeight="133.0" fitWidth="156.0" layoutX="3085.0" layoutY="449.0">
+         <image>
+            <Image url="@assets/Islands3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island12" fitHeight="133.0" fitWidth="351.0" layoutX="3359.0" layoutY="449.0">
+         <image>
+            <Image url="@assets/Islands3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island14" fitHeight="140.0" fitWidth="121.0" layoutX="4091.0" layoutY="450.0">
+         <image>
+            <Image url="@assets/Islands3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island13" fitHeight="133.0" fitWidth="162.0" layoutX="3835.0" layoutY="449.0">
+         <image>
+            <Image url="@assets/Islands3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island15" fitHeight="133.0" fitWidth="121.0" layoutX="4322.0" layoutY="467.0">
+         <image>
+            <Image url="@assets/Islands3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="greenOrc1" fitHeight="45.0" fitWidth="46.0" layoutX="794.0" layoutY="412.0">
+         <image>
+            <Image url="@assets/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="greenOrc2" fitHeight="45.0" fitWidth="46.0" layoutX="1437.0" layoutY="399.0">
+         <image>
+            <Image url="@assets/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="greenOrc3" fitHeight="36.0" fitWidth="39.0" layoutX="1800.0" layoutY="417.0">
+         <image>
+            <Image url="@assets/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="greenOrc4" fitHeight="45.0" fitWidth="46.0" layoutX="2423.0" layoutY="402.0">
+         <image>
+            <Image url="@assets/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="greenOrc5" fitHeight="45.0" fitWidth="46.0" layoutX="3174.0" layoutY="405.0">
+         <image>
+            <Image url="@assets/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redOrc1" fitHeight="45.0" fitWidth="46.0" layoutX="302.0" layoutY="318.0">
+         <image>
+            <Image url="@assets/RedOrc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redOrc2" fitHeight="45.0" fitWidth="46.0" layoutX="1027.0" layoutY="332.0">
+         <image>
+            <Image url="@assets/RedOrc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redOrc3" fitHeight="45.0" fitWidth="46.0" layoutX="2113.0" layoutY="315.0">
+         <image>
+            <Image url="@assets/RedOrc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redOrc4" fitHeight="45.0" fitWidth="46.0" layoutX="3077.0" layoutY="299.0">
+         <image>
+            <Image url="@assets/RedOrc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redOrc5" fitHeight="45.0" fitWidth="46.0" layoutX="3903.0" layoutY="318.0">
+         <image>
+            <Image url="@assets/RedOrc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redOrc6" fitHeight="45.0" fitWidth="46.0" layoutX="4134.0" layoutY="321.0">
+         <image>
+            <Image url="@assets/RedOrc1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="moveButton" layoutX="423.0" layoutY="35.0" mnemonicParsing="false" onAction="#screenMovement" text="move" />
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#ffffffb0" height="14.0" layoutX="71.0" layoutY="286.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3014.0" />
+      <Label fx:id="number_OfMoves" layoutX="71.0" layoutY="39.0" prefHeight="14.0" prefWidth="82.0" text="Location: " />
+      <ImageView fx:id="coin1" fitHeight="25.0" fitWidth="23.0" layoutX="215.0" layoutY="416.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin2" fitHeight="25.0" fitWidth="23.0" layoutX="552.0" layoutY="418.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin3" fitHeight="25.0" fitWidth="23.0" layoutX="997.0" layoutY="412.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin4" fitHeight="25.0" fitWidth="23.0" layoutX="1407.0" layoutY="412.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin5" fitHeight="25.0" fitWidth="23.0" layoutX="1685.0" layoutY="421.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin6" fitHeight="25.0" fitWidth="23.0" layoutX="2001.0" layoutY="418.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin7" fitHeight="25.0" fitWidth="23.0" layoutX="2393.0" layoutY="424.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin8" fitHeight="25.0" fitWidth="23.0" layoutX="2639.0" layoutY="399.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin10" fitHeight="25.0" fitWidth="23.0" layoutX="3143.0" layoutY="422.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin9" fitHeight="25.0" fitWidth="23.0" layoutX="3112.0" layoutY="422.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin11" fitHeight="25.0" fitWidth="23.0" layoutX="3529.0" layoutY="425.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin12" fitHeight="25.0" fitWidth="23.0" layoutX="3555.0" layoutY="425.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin13" fitHeight="25.0" fitWidth="23.0" layoutX="3631.0" layoutY="425.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin14" fitHeight="25.0" fitWidth="23.0" layoutX="3880.0" layoutY="425.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin15" fitHeight="25.0" fitWidth="23.0" layoutX="4104.0" layoutY="425.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin16" fitHeight="25.0" fitWidth="23.0" layoutX="4399.0" layoutY="436.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree1" fitHeight="114.0" fitWidth="82.0" layoutX="40.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree2" fitHeight="105.0" fitWidth="82.0" layoutX="245.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree3" fitHeight="128.0" fitWidth="103.0" layoutX="583.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree4" fitHeight="95.0" fitWidth="51.0" layoutX="744.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="land1" fitHeight="105.0" fitWidth="159.0" layoutX="529.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="land2" fitHeight="140.0" fitWidth="143.0" layoutX="803.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree20" fitHeight="86.0" fitWidth="70.0" layoutX="817.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree21" fitHeight="86.0" fitWidth="51.0" layoutX="883.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree5" fitHeight="146.0" fitWidth="110.0" layoutX="1082.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree6" fitHeight="86.0" fitWidth="51.0" layoutX="1545.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree7" fitHeight="69.0" fitWidth="51.0" layoutX="1708.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree8" fitHeight="45.0" fitWidth="39.0" layoutX="1766.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree9" fitHeight="105.0" fitWidth="87.0" layoutX="2031.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree11" fitHeight="105.0" fitWidth="51.0" layoutX="2346.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree10" fitHeight="53.0" fitWidth="39.0" layoutX="2177.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="land3" fitHeight="125.0" fitWidth="143.0" layoutX="2189.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands11.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree22" fitHeight="80.0" fitWidth="73.0" layoutX="2203.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="land4" fitHeight="95.0" fitWidth="130.0" layoutX="2530.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree12" fitHeight="133.0" fitWidth="65.0" layoutX="2668.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="land5" fitHeight="125.0" fitWidth="130.0" layoutX="3540.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree24" fitHeight="95.0" fitWidth="58.0" layoutX="3613.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree23" fitHeight="76.0" fitWidth="51.0" layoutX="3552.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree13" fitHeight="140.0" fitWidth="103.0" layoutX="3556.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree14" fitHeight="95.0" fitWidth="73.0" layoutX="3653.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree15" fitHeight="113.0" fitWidth="58.0" layoutX="3940.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="land6" fitHeight="105.0" fitWidth="143.0" layoutX="4050.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands11.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree25" fitHeight="67.0" fitWidth="58.0" layoutX="4055.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="land7" fitHeight="113.0" fitWidth="130.0" layoutX="4357.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree16" fitHeight="95.0" fitWidth="79.0" layoutX="4321.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="3991.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island16" fitHeight="140.0" fitWidth="200.0" layoutX="4520.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Islands3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree17" fitHeight="105.0" fitWidth="79.0" layoutX="4505.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree18" fitHeight="45.0" fitWidth="32.0" layoutX="4790.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="land8" fitHeight="114.0" fitWidth="143.0" layoutX="4699.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands11.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree26" fitHeight="76.0" fitWidth="46.0" layoutX="4707.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree27" fitHeight="76.0" fitWidth="46.0" layoutX="4750.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island17" fitHeight="130.0" fitWidth="215.0" layoutX="4677.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hero" fitHeight="53.0" fitWidth="43.0" layoutX="126.0" layoutY="355.0">
+         <image>
+            <Image url="@assets/pinkBoss.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tree19" fitHeight="86.0" fitWidth="64.0" layoutX="4688.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island10" fitHeight="105.0" fitWidth="130.0" layoutX="2874.0" layoutY="409.0">
+         <image>
+            <Image url="@assets/BalancingRocks3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin17" fitHeight="25.0" fitWidth="23.0" layoutX="2928.0" layoutY="371.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island19" fitHeight="90.0" fitWidth="93.0" layoutX="1252.0" layoutY="412.0">
+         <image>
+            <Image url="@assets/BalancingRocks6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin18" fitHeight="25.0" fitWidth="23.0" layoutX="1287.0" layoutY="375.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island16" fitHeight="53.0" fitWidth="156.0" layoutX="4501.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands1.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="chest2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="4786.0" layoutY="419.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="60.0" />
+      <Rectangle fx:id="chest1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" layoutX="3382.0" layoutY="387.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="64.0" />
+      <ImageView fx:id="island18" fitHeight="130.0" fitWidth="215.0" layoutX="4902.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands1.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="chest3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" layoutX="1267.0" layoutY="357.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="64.0" />
+      <ImageView fx:id="island20" fitHeight="130.0" fitWidth="215.0" layoutX="5151.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin20" fitHeight="25.0" fitWidth="23.0" layoutX="4915.0" layoutY="400.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin19" fitHeight="25.0" fitWidth="23.0" layoutX="5034.0" layoutY="404.0">
+         <image>
+            <Image url="@assets/Coin.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>
